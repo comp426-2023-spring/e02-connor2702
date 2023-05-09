@@ -1,6 +1,6 @@
 <html lang="en">
     <head>
-        <title>Rock</title>
+        <title>RPS/RPSLS</title>
 		<link href="./styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 		<script src="./scripts.js"></script>
@@ -9,7 +9,9 @@
     <body onload="showHideShots()">
         <b>Welcome to RPS/RPSLS!</b>
         <br><br>
-        <a href="https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/">Rules</a>
+        <a href="https://www.wikihow.com/Play-Rock,-Paper,-Scissors">RPS Rules</a>
+		<br><br>
+		<a href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock">RPSLS Rules</a>
         <br><br>
         <br><br>
 
@@ -43,6 +45,22 @@
 	  		<br><br>
 	  		<button type="submit" id="play" onclick="playGame()">Play</button>
 	  		<button type="submit" id="startover" onclick="startOver()">Start Over</button>
+			<br><br>
+			<br><br>
+			<game-player style="display: none">
+			You:
+			<b id="outputp"></b>
+			</game-player>
+			<br><br>
+			<game-opponent style="display: none">
+			Your Opponent:
+			<b id="outputo"></b>
+			</game-opponent>
+			<br><br>
+			<game-result style="display: none">
+			Result:
+			<b id="outputr"></b>
+			</game-result>
 		</form>
     <!-- Your interface markup goes here -->
     <!-- For interface examples, look in the `/examples/` directory in the root of your starter code repo. -->

@@ -85,16 +85,4 @@ async function playGame () {
 
         $('game-player').show()
     }
-
-
-
-
-    // Here you should include code that uses the DOM API or jQuery to 
-    // manipulate another block of HTML in the interface to display the 
-    // results in some way.
-    // fix + delete - use html like before to display result
-    //steps
-    // 1. hide options by default
-    // 2. get them to display results accordingly
-    // do the above based on each if statement above separately
 }

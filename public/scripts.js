@@ -45,5 +45,5 @@ async function playGame () {
     console.log(result)
     // Here you should include code that uses the DOM API or jQuery to 
     // manipulate another block of HTML in the interface to display the 
-    // results in some way. 
+    // results in some way
 }

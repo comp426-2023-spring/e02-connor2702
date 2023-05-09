@@ -2,7 +2,7 @@
 // on whether or not the #opponent checkbox is checked
 function showHideShots() {
 // Get the info from the checkbox
-        let check = document.getElementById('opponent');
+    let check = document.getElementById('opponent');
 // Check if the checkbox is checked and show or hide options accordingly
     if (check.checked == true) {
 // Here, instead of just showing all of the options, use similar logic to 

@@ -11,14 +11,14 @@ function showHideShots() {
 // check which of the game radio buttons is checked and show only those
 // options relevant to the game being selected (rps or rpsls). You can 
 // use similar jQuery 
-        $('rpsls').hide()
-        $('rps').show()
+        $('r-p-s-l-s').hide()
+        $('r-p-s').show()
     } else if (check.checked == true && rpsls.checked == true) {
-        $('rps').show()
-        $('rpsls').show()
+        $('r-p-s').show()
+        $('r-p-s-l-s').show()
     } else {
-        $('rps').hide()
-        $('rpsls').hide()
+        $('r-p-s').hide()
+        $('r-p-s-l-s').hide()
     }
 }
 // This function clears the input form and also resets the shot selection
